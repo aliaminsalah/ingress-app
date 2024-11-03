@@ -1,6 +1,3 @@
-Here's the README file in English for setting up the Nginx Ingress Controller and testing the application with Kind on Kubernetes:
-
-```plaintext
 # ingress-app
 This README provides instructions for setting up and configuring the Nginx Ingress Controller and testing the application with Kind on Kubernetes.
 
@@ -16,6 +13,7 @@ This README provides instructions for setting up and configuring the Nginx Ingre
    - Label the control plane (or master node) to prepare it for ingress setup.
 
 ### Delete Existing Cluster (if any)
+
 ```bash
 kind delete cluster
 ```
